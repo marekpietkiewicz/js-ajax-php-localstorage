@@ -70,7 +70,7 @@ window.onload = function(e){
 	const populateSum = (data) => {
 		if(!!data && !!data.numbers && !!data.data){
 			
-			let res = `<h2>Family</h2>`
+			let res = `<h2>Home members:</h2>`
 			res += `<ul>`
 
 			data.data.forEach(el => {
